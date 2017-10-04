@@ -1,0 +1,22 @@
+.container-fluid{
+  margin: auto;
+  position: absolute;
+  top: 35%; left: 0; bottom: 0; right: 0;
+}
+body{
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  min-height: 80%;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-title{
+  font-size: 2.5em;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.card-link{
+  color: #36826d;
+}
