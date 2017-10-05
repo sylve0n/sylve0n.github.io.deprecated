@@ -12,6 +12,7 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: rgba(230, 230, 230, 0.95);
+  margin-bottom: 40px;
 }
 body{
   min-height: 100%;
@@ -41,19 +42,20 @@ li::before {
   content: "• ";
   margin-right: 4px;
 }
-/*nav-related styles*/
+
+/*nav and link-related styles*/
 .nav-link, h1, li::before{
   color: #34826c;
 }
 .nav-link:hover{
-  color: #286353;
+  color: #1e483d;
 }
 /*media queries*/
 @media screen and (max-width:768px) {
   .nav-link{
     margin: auto;
   }
-  .container, .col{
+  .container, .col, .container-secondary{
     margin: auto;
     padding: 25px;
   }
