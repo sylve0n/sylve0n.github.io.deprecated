@@ -2,14 +2,14 @@
 .container{
   background-color: rgba(255, 255, 255, 0.95);
   margin-top: 40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 25px 50px;
+  border-radius: 5px;
+  padding: 25px 160px;
+  min-height: 500px;
 }
 .container-secondary{
   margin-top: 0px;
   border-radius: 0;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: rgba(230, 230, 230, 0.95);
   margin-bottom: 40px;
@@ -20,11 +20,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.col{
-  padding-left: 80px;
-}
 h1{
   padding: 20px;
+}
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link{
+  background-color: #34826c;
 }
 
 /*List Styling*/
@@ -38,7 +38,7 @@ li {
   text-indent: -.7em;
   padding:10px;
 }
-li::before {
+.list-items::before {
   content: "• ";
   margin-right: 4px;
 }

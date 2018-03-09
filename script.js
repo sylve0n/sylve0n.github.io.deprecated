@@ -1,3 +1,3 @@
-$( document ).ready(function() {
-    $('.tabs').tabs({swipeable: true});
-});
+$('.nav-tabs a').click(function(){
+    $(this).tab('show');
+})
