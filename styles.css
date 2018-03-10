@@ -1,30 +1,54 @@
+/*reset styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  -webkit-appearance: none;
+}
+html{
+  min-height: 100%;
+}
 /*main layout*/
 .container{
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.92);
   margin-top: 40px;
-  border-radius: 5px;
-  padding: 25px 160px;
-  min-height: 500px;
-}
-.container-secondary{
-  margin-top: 0px;
-  border-radius: 0;
-  border-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background-color: rgba(230, 230, 230, 0.95);
-  margin-bottom: 40px;
+  border-radius: 15px;
+  padding: 25px 0px;
+  min-height: 470px;
 }
 body{
   min-height: 100%;
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
 }
 h1{
   padding: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  color: #ffffff;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: thin; 
 }
-.nav-pills .nav-link.active, .show > .nav-pills .nav-link{
-  background-color: #34826c;
+h2{
+  font-family: 'Londrina Solid', sans-serif;
+  padding: 25px 0;
+}
+p{
+  padding: 0px 140px;
+}
+.teal{
+  color: #34826c;
 }
 
 /*List Styling*/
@@ -47,11 +71,44 @@ span{
 }
 
 /*nav and link-related styles*/
-.nav-link, h1, li::before{
+h2, li::before{
   color: #34826c;
 }
+.nav-link{
+  color: white;
+}
 .nav-link:hover{
-  color: #1e483d;
+  color: #34826c;
+}
+.nav-pills{
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  padding-left: 160px;
+}
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link{
+  background-color: #34826c;
+}
+button{
+  color: #34826c;
+  text-align: center;
+  padding-top: 15px;
+}
+.teal-link{
+  font-size: 1.5em;
+  color:#34826c;
+  font-family: 'Londrina Solid', sans-serif;
+  padding-top: 20px;
+}
+.teal-link:hover, .teal:hover, button:hover{
+  text-decoration: none;
+  color: #245345;
+}
+.fa-file-text{
+  font-size: 4.5em;
+  padding-bottom: 7px;
+}
+.fa-4x{
+  font-size: 4em;
 }
 /*media queries*/
 @media screen and (max-width:768px) {
