@@ -92,6 +92,8 @@ button{
   color: #34826c;
   text-align: center;
   padding-top: 15px;
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.5em;
 }
 .teal-link{
   font-size: 1.5em;
@@ -104,19 +106,20 @@ button{
   color: #245345;
 }
 .fa-file-text{
-  font-size: 4.5em;
+  font-size: 4;
   padding-bottom: 7px;
 }
 .fa-4x{
   font-size: 4em;
 }
-/*media queries*/
-@media screen and (max-width:768px) {
-  .nav-link{
-    margin: auto;
+
+@media screen and (max-width: 768px){
+  p{
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  .container, .col, .container-secondary{
-    margin: auto;
-    padding: 25px;
+  .nav-pills{
+    padding-left: 10px;
+    padding-top:10px;
   }
 }
