@@ -18,6 +18,7 @@ button {
 html{
   min-height: 100%;
 }
+
 /*main layout*/
 .container{
   background-color: rgba(255, 255, 255, 0.92);
@@ -29,20 +30,10 @@ html{
 body{
   min-height: 100%;
   background-image: url("images/background.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
-}
-h1{
-  padding: 20px;
-  text-shadow: 2px 2px 4px #000000;
-  color: #ffffff;
-  font-family: 'Londrina Solid', sans-serif;
-  font-weight: thin; 
-}
-h2{
-  font-family: 'Londrina Solid', sans-serif;
-  padding: 25px 0;
 }
 p{
   padding: 0px 140px;
@@ -71,6 +62,17 @@ span{
 }
 
 /*nav and link-related styles*/
+h1{
+  padding: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  color: #ffffff;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: thin; 
+}
+h2{
+  font-family: 'Londrina Solid', sans-serif;
+  padding: 25px 0;
+}
 h2, li::before{
   color: #34826c;
 }
@@ -83,7 +85,6 @@ h2, li::before{
 .nav-pills{
   color: white;
   text-shadow: 2px 2px 4px black;
-  padding-left: 160px;
 }
 .nav-pills .nav-link.active, .show > .nav-pills .nav-link{
   background-color: #34826c;
